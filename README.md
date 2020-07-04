@@ -5,8 +5,10 @@ acloud.guru project
 
 This project requires Python 3 and the requests package
 
-'python3 find_meteors.py'
+First install pipenv.  Then, install the requests package.
 
-In some cases you may have to modify the command to get output
-
-'python find_meteors.py'
+'''
+pip3 install pipenv
+pipenv install requests
+pipenv run python find_mteors.py
+'''
