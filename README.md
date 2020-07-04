@@ -10,5 +10,5 @@ First install pipenv.  Then, install the requests package.
 '''
 pip3 install pipenv
 pipenv install requests
-pipenv run python find_mteors.py
+pipenv run python meteors/find_meteors.py
 '''
